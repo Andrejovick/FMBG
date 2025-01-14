@@ -6,6 +6,12 @@ body {
     background-image: url(Obrázky/background.jpg);
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 header {
     text-align: center;
     background-color: #333;
@@ -33,7 +39,7 @@ nav a:hover {
 
 .team-picture {
     text-align: center;
-    margin: 30px 0;
+    margin: 40px 0;
 }
 
 .team-picture img {
@@ -78,5 +84,45 @@ h2 {
 
 .matches th, .results th {
     background-color: #333333ab;
+    color: white;
+}
+
+.contactbox {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1300px;
+    background-color: #88888880;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.contact {
+    width: 80%;
+    margin: 0 auto 30px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+footer a:hover {
     color: white;
 }
