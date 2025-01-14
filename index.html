@@ -1,58 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Futbalová mládež Borisa Godála</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Club Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <!-- Header Section -->
-  <header>
+    <header>
+        <h1>Football Club Name</h1>
+    </header>
+
     <nav>
-      <div class="logo">Your Website</div>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+        <a href="#">Home</a>
+        <a href="#">Team</a>
+        <a href="#">Fixtures</a>
+        <a href="#">Results</a>
+        <a href="#">News</a>
+        <a href="#">Shop</a>
+        <a href="#">Contact</a>
     </nav>
-  </header>
 
-  <!-- Home Section -->
-  <section id="home" class="hero">
-    <h1>Futbalová mládež Borisa Godála</h1>
-    <p>Oficiálna stránka klubu</p>
-  </section>
-
-  <!-- About Section -->
-  <section id="about" class="about">
-    <img src="Obrázky/fm Borisa Godála.jpg" alt="About Image">
-  </section>
-
-  <!-- Gallery Section -->
-  <section id="gallery" class="gallery">
-    <h2>Gallery</h2>
-    <div class="gallery-grid">
-      <img src="image1.jpg" alt="Gallery Image 1">
-      <img src="image2.jpg" alt="Gallery Image 2">
-      <img src="image3.jpg" alt="Gallery Image 3">
-      <img src="image4.jpg" alt="Gallery Image 4">
+    <div class="team-picture">
+        <img src="Obrázky/fm Borisa Godála.jpg" alt="Football Team">
     </div>
-  </section>
 
-  <!-- Footer Section -->
-  <footer>
-    <p>&copy; 2025 Your Website Name. All Rights Reserved.</p>
-    <div class="social-media">
-      <a href="#">Facebook</a>
-      <a href="#">Instagram</a>
-      <a href="#">Twitter</a>
+    <div class="matches">
+        <h2>Nearest Matches</h2>
+        <table>
+            <tr>
+                <th>Match Date</th>
+                <th>Opponent</th>
+                <th>Location</th>
+            </tr>
+            <tr>
+                <td>Jan 20, 2025</td>
+                <td>Opponent 1</td>
+                <td>Home</td>
+            </tr>
+            <tr>
+                <td>Jan 27, 2025</td>
+                <td>Opponent 2</td>
+                <td>Away</td>
+            </tr>
+        </table>
     </div>
-  </footer>
+
+    <div class="results">
+        <h2>Match Results</h2>
+        <table>
+            <tr>
+                <th>Match Date</th>
+                <th>Opponent</th>
+                <th>Score</th>
+            </tr>
+            <tr>
+                <td>Jan 15, 2025</td>
+                <td>Opponent 3</td>
+                <td>3 - 1</td>
+            </tr>
+            <tr>
+                <td>Jan 8, 2025</td>
+                <td>Opponent 4</td>
+                <td>2 - 2</td>
+            </tr>
+        </table>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Football Club. All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
