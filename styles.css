@@ -9,6 +9,10 @@ body {
     background-position: center; /* Centers the image */
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     text-align: center;
     background-color: #333;
