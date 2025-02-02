@@ -146,8 +146,46 @@ h2 {
     margin-bottom: 0px;
 }
 
-/* Add a little padding to the paragraphs */
 .history p {
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+.footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.contact-info p {
+    font-size: 16px;
+}
+
+.socials {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icon {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.social-icon:hover {
+    color: #ddd;
 }
