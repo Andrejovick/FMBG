@@ -69,32 +69,9 @@ nav a:hover {
 
 h2 {
     color: #ddd;
-}
-
-.matches, .results {
-    width: 80%;
-    margin: 0 auto 30px;
-}
-
-.matches table, .results table {
-    width: 100%;
-    max-width: 1100px;
-    border-collapse: collapse;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.matches th, .results th, .matches td, .results td {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: center;
-    color:#ddd;
-    background-color: #444444ab;
-}
-
-.matches th, .results th {
-    background-color: #333333ab;
-    color: white;
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .contactbox {
@@ -120,7 +97,7 @@ h2 {
     border-radius: 8px;
 }
 
-.history h2 {
+.history h3 {
     text-align: center;
     color: #ddd;
     font-size: 1.8em;
