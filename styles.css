@@ -43,8 +43,8 @@ nav a:hover {
 }
 
 .gmaps {
-    width: 50px;
-    height: auto;
+    width: auto;
+    height: 70px;
   }
 
 h2 {
@@ -178,14 +178,4 @@ h2 {
 .socials {
     display: flex;
     gap: 20px;
-}
-
-.social-icon {
-    text-decoration: none;
-    color: #fff;
-    font-size: 18px;
-}
-
-.social-icon:hover {
-    color: #ddd;
 }
