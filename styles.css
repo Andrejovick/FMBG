@@ -66,12 +66,28 @@ h2 {
 }
 
 .sponsors {
+    flex: 1;
     margin-left: auto;
     margin-right: auto;
     max-width: 1300px;
     background-color: #88888880;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.sponsorss {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3%;
+    text-align: center;
+}
+
+.sponsorss img {
+    width: 250px;
+    height: auto;
+    border: 2px solid #000000;
+    border-radius: 8px;
 }
 
 .contactbox {
@@ -88,6 +104,21 @@ h2 {
 .contact {
     width: 80%;
     margin: 0 auto 30px;
+}
+
+.contact table tr td {
+    color: #ddd;
+}
+
+.historybox {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1300px;
+    background-color: #88888880;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .history {
