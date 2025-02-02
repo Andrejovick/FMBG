@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    background-image: url(Obrázky/poz1.jpg);
+    background-image: url(Obrázky/poz4.jpg);
     background-attachment: fixed; /* Keeps the background fixed */
     background-size: cover; /* Ensures the image covers the whole background */
     background-position: center; /* Centers the image */
@@ -18,12 +18,16 @@ header {
     background-color: #333;
     color: white;
     padding: 20px 0;
+    margin: 0 auto;
+    max-width: 1300px;
 }
 
 nav {
     text-align: center;
     background-color: #444;
     padding: 10px 0;
+    margin: 0 auto;
+    max-width: 1300px;
 }
 
 nav a {
