@@ -22,6 +22,30 @@ header {
     max-width: 1300px;
 }
 
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Space between the logos and the heading */
+}
+
+.logo {
+    width: auto; /* Adjust logo size as needed */
+    height: 200px;
+}
+
+.left-logo {
+    margin: auto; /* Pushes the left logo to the far left */
+}
+
+.right-logo {
+    margin: auto; /* Pushes the right logo to the far right */
+}
+
+h1 {
+    margin: 0; /* Remove default margin for proper spacing */
+}
+
 nav {
     text-align: center;
     background-color: #444;
