@@ -160,6 +160,11 @@ h2 {
     margin-bottom: 30px;
 }
 
+.history h4 {
+    color: #ddd;
+    font-size: 1.8em;
+}
+
 .history p {
     line-height: 1.6;
     color: #ddd;
