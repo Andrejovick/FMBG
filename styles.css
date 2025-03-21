@@ -355,6 +355,11 @@ h4 {
         margin-top: 20px;
         margin-bottom: 20px;
     }
+
+    .gmaps{
+        width: 100%;
+        max-height: 40px;
+    }
 }
 
 /* For very small screens (like phones in portrait mode) */
@@ -388,6 +393,6 @@ h4 {
 
     .gmaps{
         width: 100%;
-        max-height: 40px;
+        max-height: 30px;
     }
 }
