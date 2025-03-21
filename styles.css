@@ -281,3 +281,108 @@ h4 {
     display: flex;
     gap: 20px;
 }
+
+/* Add Media Queries for Smaller Screens */
+@media (max-width: 768px) {
+    /* Ensure the header logos don't overlap */
+    .logo-container {
+        flex-direction: column; /* Stack logos vertically */
+        gap: 10px;
+    }
+
+    .logo {
+        max-height: 150px; /* Reduce logo size on mobile */
+    }
+
+    /* Adjust the navigation bar */
+    nav {
+        text-align: left;
+        padding: 10px;
+    }
+
+    nav a {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .dropdown-content {
+        min-width: 120px; /* Make dropdown narrower */
+    }
+
+    .team-picture img {
+        width: 100%; /* Make team picture fit the screen */
+        max-width: 100%;
+        height: auto;
+    }
+
+    .sponsorss {
+        flex-direction: column; /* Stack sponsor logos vertically */
+        gap: 20px;
+    }
+
+    .sponsorss img {
+        width: 80%; /* Resize sponsor images */
+        max-width: 250px;
+        margin: 0 auto;
+    }
+
+    /* Adjust the footer layout */
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .socials {
+        gap: 10px;
+        justify-content: center;
+    }
+
+    /* Adjust other elements for smaller screens */
+    h2, h3, h4 {
+        font-size: 1.4em;
+    }
+
+    .contact-info p, .history p {
+        font-size: 14px;
+    }
+
+    /* Optional: Adjust margin and padding for smaller screens */
+    .contactbox, .historybox, .muzstva {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+/* For very small screens (like phones in portrait mode) */
+@media (max-width: 480px) {
+    nav a {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+
+    .logo-container {
+        gap: 5px;
+    }
+
+    .footer-content {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .team-picture img {
+        width: 100%;
+    }
+
+    .sponsorss img {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    h2, h3, h4 {
+        font-size: 1.2em;
+    }
+}
