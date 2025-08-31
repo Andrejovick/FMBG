@@ -134,6 +134,87 @@ h2 {
     height: auto;
 }
 
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-bottom: 20px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+.hidden {
+  display: none;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: #0077cc;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #005fa3;
+}
+
+/* Lightbox (náhľad fotky) */
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.lightbox.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 80%;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #000;
+}
+
+.lightbox span {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+}
+
 .sponsors {
     flex: 1;
     margin-left: auto;
@@ -143,6 +224,7 @@ h2 {
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 40px;
+    color: #ddd;
 }
 
 .sponsorss {
@@ -221,7 +303,6 @@ th {
 .history {
     width: 80%;
     margin: 40px auto;
-    padding: 20px;
     border-radius: 8px;
 }
 
@@ -292,6 +373,7 @@ h4 {
 
     .logo {
         max-height: 150px; /* Reduce logo size on mobile */
+        display: none;
     }
 
     /* Adjust the navigation bar */
