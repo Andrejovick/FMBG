@@ -22,6 +22,10 @@ header {
     max-width: 1300px;
 }
 
+.bold{
+    font-weight: bold;
+}
+
 .logo-container {
     display: flex;
     align-items: center;
